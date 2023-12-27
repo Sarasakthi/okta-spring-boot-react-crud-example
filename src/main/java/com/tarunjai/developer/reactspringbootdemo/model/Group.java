@@ -30,4 +30,5 @@ public class Group {
 
     @OneToMany(fetch = FetchType.EAGER, cascade=CascadeType.ALL)
     private Set<Event> events;
+
 }
